@@ -1,4 +1,50 @@
-# **Submission Bookshelf API**
+# Bookshelf-Api
+
+##  Project Description
+
+**Bookshelf-Api** is a simple RESTful API built with Node.js that allows you to manage a digital bookshelf. You can perform Create, Read, Update, and Delete (CRUD) operations for book entries.
+
+---
+
+##  Features
+
+- Add new books  
+- View all books  
+- Retrieve details of a specific book  
+- Update book information  
+- Delete books  
+- Lightweight and easy to use
+
+---
+
+##  How to Use
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/maumhmd-sh/Bookshelf-Api.git
+cd Bookshelf-Api
+```
+### 2. Install dependencies
+```
+Install dependencies
+```
+### 3. Run the server
+```
+npm start
+```
+The API will be available at http://localhost:PORT (replace PORT with your configured port, e.g., 3000).
+
+## 📚 API Endpoints
+
+| Method | Endpoint      | Description             |
+| ------ | ------------- | ----------------------- |
+| GET    | `/books`      | Retrieve all books      |
+| GET    | `/books/{id}` | Get book details        |
+| POST   | `/books`      | Add a new book          |
+| PUT    | `/books/{id}` | Update an existing book |
+| DELETE | `/books/{id}` | Remove a book           |
+
 ## Kriteria 1 : API dapat menyimpan buku
 1. API harus dapat menyimpan buku melalui route: <br/>
     Method : POST <br/>
@@ -232,4 +278,11 @@
         "message": "Buku berhasil dihapus"
     }
 ```
+
+## 📝 License
+This project is licensed under the MIT License.
+
+## ❤️ Support
+If you find this project useful, please give it a ⭐ on GitHub!
+
 
